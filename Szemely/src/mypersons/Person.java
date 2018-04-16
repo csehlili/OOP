@@ -17,6 +17,11 @@ public class Person {
 		return kor;
 	}
 	
+	@Override
+	public String toString() {
+		return "Person [nev=" + nev + ", kor=" + kor + "]";
+	}
+
 	public boolean koraNagyobbMint(Person masikSzemely) {
 		return kor > masikSzemely.kor;
 	}
